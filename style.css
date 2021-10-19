@@ -2,10 +2,6 @@ body {
     background-color: black;    
 }
 
-*{
-    border-collapse: collapse;
-}
-
 .mainPage {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -85,4 +81,22 @@ body {
 footer {
     background-color: #FAAA8D;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.team {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
 }
