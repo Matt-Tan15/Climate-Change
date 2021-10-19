@@ -1,0 +1,88 @@
+body {
+    background-color: black;    
+}
+
+*{
+    border-collapse: collapse;
+}
+
+.mainPage {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 1570px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(201,34%,48%);
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.navright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    margin: 10px;
+}
+
+.polarBear {
+    height: 475px;
+}
+
+.bearpic {
+    width: 100%;
+    max-height: 500px;
+}
+
+.shortsum {
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.gallery {
+    height: 600px;
+    display: grid;
+    grid-template-rows: 0.4fr 1fr 1fr;
+    background-color: hsl(200,33%,48%);
+}
+
+.galleryheading {
+    text-align: center;
+    color: white;
+}
+
+.gallerypics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic {
+    height: 250px;
+    width: 300px;
+}
+
+.gallerysum {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+
+.description {
+    width: 400px;
+}
+
+footer {
+    background-color: #FAAA8D;
+    height: 100px;
+}
