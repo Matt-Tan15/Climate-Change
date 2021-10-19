@@ -11,7 +11,8 @@ body {
 .navbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: hsl(201,34%,48%);
+    /*background-color: hsl(201,34%,48%);*/
+    background-color: hsl(200,36%,46%);
     color: white;
     border-radius: 15px 15px 0px 0px;
 }
@@ -44,14 +45,16 @@ body {
     text-align: center;
     background-color: white;
     padding: 10px 100px 10px 100px;
-    border: 10px solid hsl(200,33%,48%);
+    line-height: 2;
+    background-image: linear-gradient(hsl(199,61%,22%), hsl(200,33%,48%));
+    color: white;
 }
 
 .gallery {
     height: 600px;
     display: grid;
     grid-template-rows: 0.4fr 1fr 1fr;
-    background-color: hsl(200,33%,48%);
+    background-image: linear-gradient(hsl(200,33%,48%), #FAAA8D);
 }
 
 .galleryheading {
