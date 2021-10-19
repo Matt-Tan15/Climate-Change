@@ -1,2 +1,2 @@
 # Unit-1-Project
-## This is a social issue awareness page that is going to be made by Matthew, Jarae, and Mohammad.
+## This is a social issue awareness page about climate change that is made by Matthew, Jarae, and Mohammad.
