@@ -31,7 +31,7 @@ body {
 }
 
 .polarBear {
-    height: 475px;
+    height: 500px;
 }
 
 .bearpic {
@@ -44,6 +44,7 @@ body {
     text-align: center;
     background-color: white;
     padding: 10px 100px 10px 100px;
+    border: 10px solid hsl(200,33%,48%);
 }
 
 .gallery {
@@ -66,6 +67,7 @@ body {
 .pic {
     height: 250px;
     width: 300px;
+    border-radius: 15px;
 }
 
 .gallerysum {
