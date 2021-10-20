@@ -80,3 +80,11 @@
     background-image: linear-gradient(black, hsl(192,58%,42%));
     color: white;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
