@@ -59,16 +59,31 @@ footer {
          font-size: 10px;
      }
      
-     .MTheading {
-         padding: 20px;
-     }
-    
-     .MTozonepic {
-        max-width: 100px;
-        height: 75px;
-    }
-    
-    footer {
+     footer {
         font-size: 10px;
     }
+}
+
+@media (max-width: 465px) {
+    .MTheading {
+        display: none;
+    }
+    
+    .MTmainpage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 720px) {
+    .MTheading {
+        display: none;
+    }
+    
+    .MTmainpage {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
