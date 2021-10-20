@@ -1,6 +1,8 @@
 .MTbody {
     background-color: black;
     padding: 10px;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .MTmainpage {
@@ -21,7 +23,6 @@
 
 .MTozonepic {
     width: 500px;
-    
     border-radius: 15px;
 }
 
@@ -37,24 +38,15 @@
 
 .navbar {
     background-color: black;
+     max-width: 1920px;
 }
 
 footer {
     background-color: #FAAA8D;
+     max-width: 1920px;
 }
 
-@media (max-width: 572px) {
-    .MTheading {
-        padding-left: 20px;
-    }
-    
-    .MTozonepic {
-        max-width: 250px;
-        height: 200px;
-    }
-}
-
-@media (max-width: 372px) {
+@media (max-width: 375px) {
      .navbar {
          font-size: 10px;
      }
@@ -62,18 +54,6 @@ footer {
      footer {
         font-size: 10px;
     }
-}
-
-@media (max-width: 465px) {
-    .MTheading {
-        display: none;
-    }
-    
-    .MTmainpage {
-        display: flex;
-        flex-direction: column;
-    }
-    
 }
 
 @media (max-width: 720px) {
