@@ -21,7 +21,7 @@
 
 .MTozonepic {
     width: 500px;
-    height: 400px;
+    
     border-radius: 15px;
 }
 
@@ -43,3 +43,32 @@ footer {
     background-color: #FAAA8D;
 }
 
+@media (max-width: 572px) {
+    .MTheading {
+        padding-left: 20px;
+    }
+    
+    .MTozonepic {
+        max-width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 372px) {
+     .navbar {
+         font-size: 10px;
+     }
+     
+     .MTheading {
+         padding: 20px;
+     }
+    
+     .MTozonepic {
+        max-width: 100px;
+        height: 75px;
+    }
+    
+    footer {
+        font-size: 10px;
+    }
+}
