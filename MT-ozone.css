@@ -1,5 +1,5 @@
 .MTbody {
-    background-color: white;
+    background-color: black;
     padding: 10px;
 }
 
@@ -8,6 +8,8 @@
     grid-template-columns: 1fr 1fr;
     background-image: linear-gradient(black, #FAAA8D);
     color: white;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .MTheading {
@@ -40,3 +42,4 @@
 footer {
     background-color: #FAAA8D;
 }
+
