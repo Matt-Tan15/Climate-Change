@@ -3,6 +3,7 @@
     padding: 10px;
     max-width: 1920px;
     margin: auto;
+    height:1020px;
 }
 
 .MTmainpage {
@@ -19,6 +20,7 @@
     display: grid;
     grid-template-rows: 1fr 3fr;
     justify-items: center;
+    height: 820px;
 }
 
 .MTozonepic {
@@ -29,7 +31,7 @@
 .MTparagraph {
     text-align: center;
     padding: 20px;
-    line-height: 1.5;
+    line-height: 3;
 }
 
 .MTheading2 {
@@ -65,5 +67,4 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    
 }
