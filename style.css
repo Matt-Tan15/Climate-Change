@@ -119,7 +119,7 @@ a:hover {
     color: orange;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
     .polarBear {
         height: auto;
     }
