@@ -1,182 +1,20 @@
-body {
-    background-color: black;
-    color: white;
-    /*margin:auto;*/
+.img-row {
+    height:370px;
 }
-
-.mainPage {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 1570px;
-}
-
-.navbar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: hsl(200,36%,46%);
-    color: white;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.title {
-    text-align: center;
-}
-
-.navright {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.links {
-    margin: 10px;
-}
-
-.polarBear {
-    height: 650px;
-    /*background-color: hsl(199,61%,22%);*/
-}
-
-.bearpic {
-    width: 100%;
-    max-height: 700px;
-}
-
-.shortsum {
-    height: 300px;
-    text-align: center;
-    background-color: white;
-    padding: 10px 150px 10px 150px;
-    line-height: 2;
-    background-image: linear-gradient(hsl(199,61%,22%), hsl(200,33%,48%));
-    color: white;
-}
-
-.gallery {
-    height: auto;
-    display: grid;
-    grid-template-rows: 0.4fr 1fr 1fr;
-    background-image: linear-gradient(hsl(200,33%,48%), #FAAA8D);
-}
-
-.galleryheading {
-    text-align: center;
-    color: white;
-}
-
-.gallerypics {
-    display: flex;
-    justify-content: space-around;
-}
-
-.pic {
-    height: 250px;
-    width: 300px;
+img {
+    width:100%;
+    height:100%;
     border-radius: 15px;
-    margin-top: 50px;
 }
 
-.gallerysum {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    color: white;
+.footer-row {
+    height: 50px;
 }
 
-.description {
-    width: 400px;
-    height: 450px;
-    padding-bottom: 60px
+.colorgrad {
+    background-image: linear-gradient(hsl(200,36%,46%), hsl(199,61%,22%), hsl(200,33%,48%), #FAAA8D);
 }
 
-footer {
-    background-color: #FAAA8D;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 0px 0px 15px 15px;
-}
-
-.copyright {
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.team {
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
-    font-weight: bold;
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    color: orange;
-}
-
-@media (max-width: 600px) {
-    
-    * {
-        width: auto;
-    }
-    
-    .polarBear {
-        height: 250px;
-    }
-    
-    .bearpic {
-        width: 500px;
-        height: auto;
-        max-width: 550px;
-    }
-    
-    .shortsum {
-        display: none;
-    }
-    
-    .gallery {
-        height: auto;
-        max-height: 1600px;
-        max-width: 500px;
-    }
-    .gallerypics {
-        display: none;
-    }
-    
-    .pic {
-        display: none;
-    }
-    
-    .gallerysum {
-        display: flex;
-        flex-direction: column;
-        padding-left: 50px;
-    }
-    
-    .navbar {
-        font-size: small;
-        max-width: 500px;
-    }
-    
-    .navright {
-        display: none;
-    }
-    
-    .title {
-        padding-left: 205px;
-    }
-    
-    footer {
-        font-size: small;
-        width: auto;
-        padding: 20px;
-        max-width: 460px;
-    }
+h5 {
+    padding-top: 10px;
 }
