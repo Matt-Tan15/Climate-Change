@@ -124,6 +124,10 @@ a:hover {
 }
 
 @media (max-width: 720px) {
+    .MTbody {
+        width: auto;
+    }
+    
     .MTheading {
         display: none;
     }
