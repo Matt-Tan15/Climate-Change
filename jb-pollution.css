@@ -7,8 +7,8 @@ main{
   padding-left: 300px;
 }
 
-.dahead{
-  background-color: #49829e;
+.navbar{
+  background-color: white;
 }
 
 .section1{
@@ -17,6 +17,10 @@ main{
 }
 .sum{
     text-align: center;
+}
+
+.wumbo{
+  color: blue;
 }
 
 
