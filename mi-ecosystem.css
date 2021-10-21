@@ -1,0 +1,90 @@
+.body-mi {
+    background-image: linear-gradient(hsl(154,65%,44%), black);
+}
+
+.monkeys {
+    height: 500px;
+    width: 100%;
+    opacity:.65;
+}
+
+.p-mi {
+    color: white;
+}
+
+.h3-mi {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    inline-size: 650px;
+    font-size: xx-large;
+    -webkit-text-stroke: .35px black;
+}
+    
+.h4-mi {
+    position: absolute;
+    top: 53%;
+    left: 65%;
+    color: white;
+    inline-size: 450px;
+    font-size: x-large;
+    -webkit-text-stroke: .35px black;
+}
+
+.pic-mi {
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+/*input[type="checkbox"]:before {*/
+/*    content: url('http://placekitten.com/200/210');*/
+/*    display: block;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+/*input[type="checkbox"]:checked:before {*/
+/*    content: url('http://placekitten.com/210/220');*/
+/*}*/
+
+.container-mi {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.row-mi {
+    color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+
+.paragraph-mi {
+    text-align: center;
+    font-size: x-large;
+}
+
+.para1-mi {
+    background-image: linear-gradient(hsl(192,58%,42%), hsl(145,70%,47%));
+}
+
+.para2-mi {
+    background-image: linear-gradient(hsl(145,70%,47%), hsl(33,95%,48%));
+}
+
+.para3-mi {
+    background-image: linear-gradient(hsl(33,95%,48%), black);
+}
+
+.foot-mi {
+    background-image: linear-gradient(black, hsl(192,58%,42%));
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}

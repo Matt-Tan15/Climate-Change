@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    /*margin:auto;*/
 }
 
 .mainPage {
@@ -32,26 +33,27 @@ body {
 }
 
 .polarBear {
-    height: 500px;
+    height: 650px;
+    /*background-color: hsl(199,61%,22%);*/
 }
 
 .bearpic {
     width: 100%;
-    max-height: 500px;
+    max-height: 700px;
 }
 
 .shortsum {
     height: 300px;
     text-align: center;
     background-color: white;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 150px 10px 150px;
     line-height: 2;
     background-image: linear-gradient(hsl(199,61%,22%), hsl(200,33%,48%));
     color: white;
 }
 
 .gallery {
-    height: 600px;
+    height: auto;
     display: grid;
     grid-template-rows: 0.4fr 1fr 1fr;
     background-image: linear-gradient(hsl(200,33%,48%), #FAAA8D);
@@ -71,6 +73,7 @@ body {
     height: 250px;
     width: 300px;
     border-radius: 15px;
+    margin-top: 50px;
 }
 
 .gallerysum {
@@ -82,6 +85,8 @@ body {
 
 .description {
     width: 400px;
+    height: 450px;
+    padding-bottom: 60px
 }
 
 footer {
@@ -106,4 +111,72 @@ footer {
     align-items: center;
     padding: 10px;
     font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+@media (max-width: 600px) {
+    
+    * {
+        width: auto;
+    }
+    
+    .polarBear {
+        height: 250px;
+    }
+    
+    .bearpic {
+        width: 500px;
+        height: auto;
+        max-width: 550px;
+    }
+    
+    .shortsum {
+        display: none;
+    }
+    
+    .gallery {
+        height: auto;
+        max-height: 1600px;
+        max-width: 500px;
+    }
+    .gallerypics {
+        display: none;
+    }
+    
+    .pic {
+        display: none;
+    }
+    
+    .gallerysum {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    
+    .navbar {
+        font-size: small;
+        max-width: 500px;
+    }
+    
+    .navright {
+        display: none;
+    }
+    
+    .title {
+        padding-left: 205px;
+    }
+    
+    footer {
+        font-size: small;
+        width: auto;
+        padding: 20px;
+        max-width: 460px;
+    }
 }
