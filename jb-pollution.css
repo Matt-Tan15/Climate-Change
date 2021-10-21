@@ -78,6 +78,7 @@ main{
   opacity: 0;
   transition: .5s ease;
   background-color: white;
+   border-radius: 15px;
 }
 
 .container:hover .overlay {
