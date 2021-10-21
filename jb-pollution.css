@@ -1,34 +1,34 @@
-main{
+body{
   background-image: linear-gradient(#80bfff, #1a8cff, #0066cc, #004080, #003366, black);
 }
 
+main{
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
 .section1{
-    
+    color: white;
     padding-bottom:70px;
 }
 .sum{
     text-align: center;
 }
+
+
+
+
+.section2{
+  padding-bottom:70px;
+}
+
 .section3{
-    
-     padding-bottom:70px;
+  padding-bottom: 70px;
 }
 
-.img{
-    width: 100%;
-    height: 700px;
-}
 
-.box1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
 
-.img2{
-    width: 500px;
-    height: 300px;
-}
+
 
 .section4{
     text-align: center;
@@ -40,8 +40,8 @@ main{
 }
 
 .wambo{
-    width: 800px;
-    height: 600px;
+    height: 500px;
+    width: 900px;
     border: 2px solid black;
 }
 
@@ -56,32 +56,28 @@ main{
   width: 100%;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 
 .overlay {
-    margin: center;
-    position: absolute;
+  margin: center;
+  position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left:1.4%;
   right: 0;
-  height: 600px;
-  width: 100%;
+  height: 100%;
+  width: 816px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: white;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+  opacity: .7;
 }
 
 .text {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -91,55 +87,8 @@ main{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.container2{
-  width:50%;
-  height:400px;
-  margin:auto;
 
-}
-
-.container2>.frame{
-  height:100%;
-  width:100%;
-  overflow-x: hidden;
-  margin-left:5%;
-}
-
-.frame>.wrapper{
-  width:300%;
-  height:100%;
-  display:flex;
-  animation: slideshow 60s;
-  animation-iteration-count: infinite;
-}
-.wrapper>.slide{
-  width:100%;
-  height:100%;
+.carousel-inner{
   text-align: center;
-  overflow: hidden;
-
-}
-.slide1{
-  background-color: #5e692d;
-  color:white;
-}
-.slide2{
-  background-color: #cfc46d;
-  color:black;
-}
-.slide3{
-  background-color: #8a7e30;
-  color:white;
 }
 
-@keyframes slideshow {
-  0%{margin-left: 0;}
-  25%{margin-left: -100%;}
-  50%{margin-left: -200%;}
-  75%{margin-left: -100%;}
-  100%{margin-left: 0;}
-}
-.slide img{
-  width:100%;
-  height:100%;
-}
