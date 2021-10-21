@@ -32,3 +32,11 @@ h5 {
 .navtitle {
     color: white;
 }
+
+.navtitle:hover {
+    color: orange;
+}
+
+.foottitle:hover {
+    color: blue;
+}
