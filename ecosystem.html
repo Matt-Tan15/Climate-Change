@@ -4,45 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ecosystem</title>
+    <title>Document</title>
+    <!--link to bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--link to css and html-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mi-ecosystem.css">
 </head>
-<body class="body-mi">
+<body>
     <main>
-        <header class="navbar">
-          <div class="title">
-              <h1>Ecosystem</h1>
-          </div>
-          <div class="navright">
-            <div class="links"><a href="index.html">Home</a></div>
-            <div class="links"><a href="pollution.html">Pollution</a></div>
-          </div>
-      </header>    
-        <div class="banner-mi">
-            <img class="monkeys"src="https://cdn.pixabay.com/photo/2019/06/14/09/05/ape-4273153_960_720.jpg">
+    <!--header-->
+    <div class="container">
+        <div class="row p-2">
+            <div class="col-8 justify-content-end"><h1>Ecosystem</h1></div>
+            <div class="col text-end"><a href="index.html" style="color:black;"><h4>Home</h4></a></div>
+            <div class="col text-end"><a href="pollution.html" style="color:black;"><h4>Pollution</h4></a></div>
         </div>
-            <h3 class="h3-mi">“To survive today, other animals must endure global warming, pollution, and fewer habitats. More tragically, they must endure the silence of human hearts.”</h3>
-            <h5 class="h4-mi">-Anthony Douglas Williams <br>(Animals Activist)</h5>
-        <div class="container-mi">
-            <div class="row-mi">
-                <!--<input type="checkbox" />-->
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFvAmlxTBQGMZr5JrLOB3T1btbHdzCwzP2ww&usqp=CAU" class="pic-mi">
-                <div class="paragraph-mi para1-mi">The damage of climate change to the ecosystems in the arctic has perhaps been the most well noted. Scientists speculate that arctic animals that are reliant on the ice and cold temperatures such as the iconic polar bear won’t be able to adapt to rising temperatures and may become extinct.</div>
-            </div>
-            <div class="row-mi">
-                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Guaruba_guarouba_-Gramado_Zoo%2C_Brazil-8a.jpg" class="pic-mi">
-                 <div class="paragraph-mi para2-mi">The ecosystems in the Amazon Rainforest are at risk of both droughts, and excessive flooding due to the continued clearing of forests, illegal forest fires, agriculture and mining. These activities caused by human hands hinders the capacity at which the forest can take up carbon.</div>
-            </div>
-            <div class="row-mi">
-                 <img src="https://www.edgeofexistence.org/wp-content/uploads/2017/11/Eretmochelys-imbricata_shutterstock_531298165.jpg" class="pic-mi">
-                 <div class="paragraph-mi para3-mi">Due to sea level rise, beaches will be impacted right away with coastal ecosystems in danger of flooding, and heat waves causing harmful algae blooms, among other impacts.</div>
+    </div>
+    <!--new banner-->
+     <div class="container p-2 new-custom-banner">
+       <div class="row custom-banner-image">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-centered">
+            <div class="maintxt">
+                <em><h4>“To survive today, other animals must endure global warming, pollution, and fewer habitats. More tragically, they must endure the silence of human hearts.”</h4></em>
+                <h5 class="h4-mi">-Anthony Douglas Williams <br>(Animals Activist)</h5>
             </div>
         </div>
+      </div>
+     </div>
+     
+    <!--banner-->
+    <!--<div class="container p-2 custom-banner">-->
+    <!--    <div class="row">-->
+    <!--        <img src="https://cdn.pixabay.com/photo/2019/06/14/09/05/ape-4273153_960_720.jpg" class="img-fluid" alt="waiting for better days">-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+    <!--article banner-->
+    <div class="container p-3">
+      <div class="row-fluid article-banner">
+        <h3><em><strong>Below are a few of the ecosystems around the globe that are in peril due to the changes in climate</strong></em></h3>
+      </div>
+    </div>
+    <!--arctic-->
+    <div class="container custom-card p-3">
+        <div class="row">
+            <div class="card text-center">
+              <div class="card-header">
+                <em>Featured Article</em>
+              </div>
+              <img class="card-img" src= "https://images.pexels.com/photos/4338092/pexels-photo-4338092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Antarctica</h5>
+                <p class="card-text">The damage of climate change to the ecosystems in the arctic has perhaps been the most well noted. Scientists speculate that arctic animals that are reliant on the ice and cold temperatures such as the iconic polar bear won’t be able to adapt to rising temperatures and may become extinct.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="card-footer text-muted">
+                Updated 2 days ago
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--rainforest-->
+    <div class="container custom-card p-3">
+        <div class="row">
+            <div class="card text-center">
+              <div class="card-header">
+                <em>Featured Article</em>
+              </div>
+              <img class="card-img" src="https://images.pexels.com/photos/2904634/pexels-photo-2904634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Amazon Rainforest</h5>
+                <p class="card-text">The ecosystems in the Amazon Rainforest are at risk of both droughts, and excessive flooding due to the continued clearing of forests, illegal forest fires, agriculture and mining. These activities caused by human hands hinders the capacity at which the forest can take up carbon.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="card-footer text-muted">
+                Updated 1 day ago
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--beach-->
+    <div class="container custom-card p-3">
+        <div class="row">
+            <div class="card text-center">
+              <div class="card-header">
+                <em>Featured Article</em>
+              </div>
+              <img class="card-img" src= "https://images.pexels.com/photos/8989993/pexels-photo-8989993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Coastal Beaches</h5>
+                <p class="card-text">Due to sea level rise, beaches will be impacted right away with coastal ecosystems in danger of flooding, and heat waves causing harmful algae blooms, among other impacts.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="card-footer text-muted">
+                Updated 1 day ago
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col text-start"><h5>Copyright &copy2021</h5></div>
+        <div class="col text-end">
+          <a href="team.html" style="color: black;"><h5 class="foottitle">Meet The Team</h5></a>
+        </div>
+      </div>
+    </div>
     </main>
-    <footer class="foot-mi">
-        <div class="copyright">Copyright &copy2021</div>
-        <div class="team">Meet The Team</div>
-    </footer>
+    <!--link to bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-<html>
+</html>
