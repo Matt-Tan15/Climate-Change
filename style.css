@@ -26,3 +26,15 @@ h5 {
 .foottitle:hover {
     color: blue;
 }
+
+.cardpic {
+    height: 500px;
+}
+
+
+@media (max-width: 600px) {
+    .cardpic {
+        height: 300px;
+        max-width: 100%;
+    }
+}
