@@ -1,4 +1,4 @@
-main {
+body {
 background-image: -webkit-linear-gradient(dodgerblue, coral);
 }
 
@@ -11,9 +11,10 @@ background-image: -webkit-linear-gradient(dodgerblue, coral);
 .custom-banner-image {
     background-image: url(./ecosystem.jpg);
     background-size: cover;
-    padding: 25%;
+    /*padding: 25%;*/
     color: white;
     text-align: right;
+    height: 500px;
 }
 
 /*banner*/
